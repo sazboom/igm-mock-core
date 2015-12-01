@@ -1,0 +1,26 @@
+{
+  "name": "igm-mock-core",
+  "version": "0.0.1",
+  "private": false,
+  "scripts": {
+    "start": "node app.js",
+    "test": "./node_modules/.bin/_mocha"
+  },
+  "dependencies": {
+    "kerberos":"*",
+    "mongodb": "*"
+ },
+  "devDependencies": {
+    "chai": "*",
+    "chai-as-promised": "*",
+    "chai-spies": "*",
+    "grunt": "*",
+    "grunt-develop": "*",
+    "grunt-mocha-test": "*",
+    "request": "*",
+    "time-grunt": "*",
+    "load-grunt-tasks": "*",
+    "grunt-contrib-jade":"*",
+    "mocha": "~2.2.5"
+  }
+}
